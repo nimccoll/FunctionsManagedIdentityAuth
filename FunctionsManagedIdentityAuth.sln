@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppClient", "WebAppClient\WebAppClient.csproj", "{501D5872-46E8-4FEF-8A6D-0041CF640C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppClient", "WebAppClient\WebAppClient.csproj", "{501D5872-46E8-4FEF-8A6D-0041CF640C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADSecuredFunction", "AADSecuredFunction\AADSecuredFunction.csproj", "{2027BD83-42C7-4581-A9EF-F9463978A376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AADSecuredFunction", "AADSecuredFunction\AADSecuredFunction.csproj", "{2027BD83-42C7-4581-A9EF-F9463978A376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppClientNew", "WebAppClientNew\WebAppClientNew.csproj", "{918DA4BF-64DE-4D9E-B2DA-40A97AD72E78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,23 +23,15 @@ Global
 		{2027BD83-42C7-4581-A9EF-F9463978A376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2027BD83-42C7-4581-A9EF-F9463978A376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2027BD83-42C7-4581-A9EF-F9463978A376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918DA4BF-64DE-4D9E-B2DA-40A97AD72E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918DA4BF-64DE-4D9E-B2DA-40A97AD72E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918DA4BF-64DE-4D9E-B2DA-40A97AD72E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918DA4BF-64DE-4D9E-B2DA-40A97AD72E78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B181248A-F4E0-4056-B383-8F2CE7ADF037}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://nimccoll.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = AADSecuredFunction\\AADSecuredFunction.csproj
-		SccProjectName1 = AADSecuredFunction
-		SccLocalPath1 = AADSecuredFunction
-		SccProjectUniqueName2 = WebAppClient\\WebAppClient.csproj
-		SccProjectName2 = WebAppClient
-		SccLocalPath2 = WebAppClient
 	EndGlobalSection
 EndGlobal
